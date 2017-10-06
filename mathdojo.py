@@ -4,7 +4,7 @@ class Mathdojo(object):
     
     def add(self, *num):
         for i in num:
-            if isinstance(i,int):
+            if isinstance(i,int): 
                 self.result=self.result+i
                 print "adding numbers " ,self.result
             else:
@@ -20,7 +20,7 @@ class Mathdojo(object):
                 print "subtracting number", self.result
             else:
                 for number in i:
-                    self.result=self.result + number
+                    self.result=self.result - number
                     print "subtracting number",self.result
 
         return self
